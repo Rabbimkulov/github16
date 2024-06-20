@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    height: 100vh;
+}
+.container {
+    border: 1px solid;
+    margin: auto;
+    height: 424px;
+    width: 850px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+.box1 {
+    background-color: white;
+    border: 1px solid;
+    width: 424px;
+    height: 424px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px;
+}
+.box2 {
+    border: 1px solid ;
+    width: 424px;
+    height: 424px;
+    float: right;
+    background-image: url(laptop.jpg);
+    background-size: cover;
+}
+.box3 {
+    background-color: rgba(137, 43, 226, 0.4);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.enf, .lgc {
+    color: white;
+    text-align-last: center;
+}
+hr {
+    width: 25px;
+    height: 2px;
+    color: blueviolet;
+    background-color: blueviolet;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.inp {
+    padding: 7px;
+    width: 367px;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+    outline: 0;
+    text-indent: 20px;
+}
+.fp {
+    font-size: 13px;
+    text-decoration: none;
+    color: blueviolet;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    width: 367px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: blueviolet;
+}
+.sign {
+    text-align: center;
+    font-size: 14px;
+}
+.sign a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.icon {
+    position: absolute;
+    margin-top: 5px;
+    color: blueviolet;
+    font-size: large;
+}
